@@ -92,7 +92,7 @@
 }
 @media(max-width: 768px) {
   .login{
-    width:85%;
+    width:84%;
     height: 100vh;
     padding: 30px;
     margin-top: 0;
