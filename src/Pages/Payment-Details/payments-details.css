@@ -156,7 +156,7 @@ input{
 @media(max-width: 768px) {
   .main{
   gap: 10px;
-  width: 95%;
+  width: 85%;
   height: fit-content;
   padding:10px 30px;
   border-radius: 0;
