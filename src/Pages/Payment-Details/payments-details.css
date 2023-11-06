@@ -1,0 +1,155 @@
+.main{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  width: 600px;
+  height: fit-content;
+  margin:auto;
+  padding:20px 60px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+.first-d{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-details{
+  font-size: 25px;
+  font-weight: 500;
+}
+.small-div{
+  background-color: white;
+  padding: 15px;
+  color: orangered;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.small-div i{
+  background-color:#F8F8F8;
+  padding: 5px;
+  border-radius: 50%;
+}
+.second-d{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-d p:first-child{
+  color: darkgray;
+  font-weight: 900;
+}
+.ss-d{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 20px;
+  padding: 20px 20px 0 20px;
+  border: 1px #d0d0d0 solid;
+  border-radius: 20px;
+}
+.ss-d .inner{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom:20px ;
+  font-weight: 800;
+}
+.ss-d .inner:last-child{
+  border: none;
+}
+.inner p:first-child {
+  color: gray;
+  font-weight: 500;
+}
+.third-d{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.third-d p:first-child{
+  color: darkgray;
+  font-weight: 900;
+}
+.t-d{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tt-d{
+  align-items: center;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid lightgray;
+  border-radius:10px;
+}
+
+input{
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.tt-d-inner{
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+.first,.second{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.first p:last-child{
+  color: gray;
+}
+.first p:first-child{
+  color: #262626;
+}
+.second p:last-child{
+  color: #099A03;
+  font-weight: 800;
+}
+
+.payment-details-buttons{
+  width: 100%;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+}
+.payment-details-buttons a{
+  width: 100%;
+}
+
+.payment-details-buttons button{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid orangered;
+  cursor: pointer;
+  color: #E73D23;
+  font-size: 20px;
+}
+
+.forth-d{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.payment-details-buttons .active{
+  background-color: orangered;
+  color: white;
+  border: 1px solid gray;
+  outline: none;
+}
+.forth-d p{
+  color: gray;
+  font-weight: 900;
+}
+.forth-d p span{
+  color:#E73D23;
+}

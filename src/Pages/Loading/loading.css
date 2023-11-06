@@ -1,0 +1,25 @@
+.loading-main{
+  width: 600px;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+
+}
+.loading-main img{
+  width: 300px;
+}
+.loading-main span{
+  font-size: 30px;
+  color: orangered;
+  font-weight: 900;
+}
+.loading-main p{
+  color: darkslategray;
+  font-weight: 500;
+}
